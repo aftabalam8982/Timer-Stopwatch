@@ -2,7 +2,7 @@ import { useCallback, useState } from "react";
 import Button from "./Button";
 import HOC from "./HOC";
 
-const Counter = ({
+const Stopwatch = ({
   timer,
   setTimer,
   timeIntervalId,
@@ -51,4 +51,4 @@ const Counter = ({
     </div>
   );
 };
-export default HOC(Counter);
+export default HOC(Stopwatch);
