@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({ disable, text = "Button", handleClick }) => {
+const Button = ({ disable, text = "Button", handleClick = null }) => {
   return (
     <div>
       <button
